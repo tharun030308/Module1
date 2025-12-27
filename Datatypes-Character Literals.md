@@ -1,23 +1,27 @@
-# Datatypes-Character Literal in Python
+# 🧮 Datatypes-Complex Number Creation in Python
 
 ## 🎯 Aim
-To write a Python program that prints the characters `'T'` and `'a'` using character literals.
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
 
 ## 🧠 Algorithm
-1. Print the character `'T'`.
-2. Print the character `'a'`.
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
 
-## 🧾 Program
+## 💻 Program
 ```
-a='T'
-b='a'
-print(a)
-print(b)
+a=int(input())
+b=int(input())
+x=complex(a,b)
+print(x)
+print(x.real)
+print(x.imag)
 ```
 ## Output
-<img width="400" height="334" alt="image" src="https://github.com/user-attachments/assets/4fed0df2-1298-490d-a322-fbb4090f2578" />
+<img width="469" height="364" alt="image" src="https://github.com/user-attachments/assets/befd780c-0e6d-499a-954b-5369c7583e92" />
 
 ## Result
-Thus,the Python program that prints the characters 'T' and 'a' using character literals is created successfully.
-
-
+Thus,the Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts is created successfully.
